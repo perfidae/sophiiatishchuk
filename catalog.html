@@ -15,23 +15,38 @@
         <a class="nav-link" href="index.html">Головна</a>
         <a class="nav-link active" href="catalog.html">Каталог</a>
         <a class="nav-link" href="index.html#delivery">Доставка</a>
-        <a class="nav-link" href="#contact">Контакти</a>
+        <a class="nav-link" href="index.html#contact">Контакти</a>
     </nav>
 
     <main>
         <section class="catalog-hero">
-            <h1>Каталог смаколиків</h1>
-            <p>Понад 100 видів азійських солодощів!</p>
+            <h1>Повний каталог</h1>
+            <p>150+ видів азійських смаколиків ✓ Найсвіжіші поставки</p>
+            <div class="filter-bar">
+                <select class="filter-select">
+                    <option>Всі товари</option>
+                    <option>Локшина</option>
+                    <option>Желе</option>
+                    <option>Шоколад</option>
+                    <option>Напої</option>
+                </select>
+                <input type="text" class="search-input" placeholder="Пошук товарів...">
+                <button class="filter-btn">Фільтри</button>
+            </div>
         </section>
 
         <section class="catalog-grid">
+            <!-- Оригінальні товари -->
             <div class="product-card">
                 <img src="https://learn.logikaschool.com/uploads/student/1794152/693d41e6e5e25.png" alt="Buldak">
                 <div class="product-info">
-                    <h3>Buldak 🔥</h3>
+                    <h3>Buldak 2x 🔥</h3>
                     <p class="price">130 грн</p>
-                    <p>Гостра корейська локшина з вогняною гостротою</p>
-                    <button class="buy-btn">Купити</button>
+                    <p>Гостра корейська локшина вогняна</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐⭐ 4.9</span>
+                    </div>
                 </div>
             </div>
 
@@ -40,8 +55,11 @@
                 <div class="product-info">
                     <h3>Міні моті 🍡</h3>
                     <p class="price">150 грн</p>
-                    <p>Ніжні японські солодощі з рисового тіста</p>
-                    <button class="buy-btn">Купити</button>
+                    <p>Японські солодощі рисові 12шт</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐⭐ 4.8</span>
+                    </div>
                 </div>
             </div>
 
@@ -50,45 +68,145 @@
                 <div class="product-info">
                     <h3>Конжак-желе 🍉</h3>
                     <p class="price">145 грн</p>
-                    <p>Фруктові желейні стіки диня/кавун</p>
-                    <button class="buy-btn">Купити</button>
+                    <p>Динька + Кавун 2 смаки</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐ 4.7</span>
+                    </div>
                 </div>
             </div>
 
             <div class="product-card">
                 <img src="https://learn.logikaschool.com/uploads/student/1794152/693d415ca9c6e.png" alt="Ramune">
                 <div class="product-info">
-                    <h3>Ramune 🍇</h3>
+                    <h3>Ramune Виноград 🍇</h3>
                     <p class="price">155 грн</p>
-                    <p>Японський газований напій у пляшці з кулькою</p>
-                    <button class="buy-btn">Купити</button>
+                    <p>Газована пляшка з кулькою</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐⭐ 4.9</span>
+                    </div>
                 </div>
             </div>
 
+            <!-- Нові товари -->
             <div class="product-card">
                 <img src="https://mangotango.ua/image/cache/data/Products/tea/Palochki-pocky-glico--600x800.png" alt="Pocky">
                 <div class="product-info">
                     <h3>Pocky Strawberry 🍓</h3>
                     <p class="price">111 грн</p>
-                    <p>Хрумкі палички з полуничною глазур'ю</p>
-                    <button class="buy-btn">Купити</button>
+                    <p>Хрусткі палички полуничні</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐⭐ 5.0</span>
+                    </div>
                 </div>
             </div>
 
             <div class="product-card">
-                <img src="https://via.placeholder.com/300x300/FF628A/FFFFFF?text=KitKat+Hello+Kitty" alt="KitKat">
+                <img src="https://via.placeholder.com/300x250/ff6b6b/fff?text=KitKat+Matcha" alt="KitKat Matcha">
                 <div class="product-info">
-                    <h3>KitKat Hello Kitty</h3>
-                    <p class="price">89 грн</p>
-                    <p>Полуничне морозиво KitKat з Японії</p>
-                    <button class="buy-btn">Купити</button>
+                    <h3>KitKat Matcha 🟢</h3>
+                    <p class="price">95 грн</p>
+                    <p>Японський матча шоколад</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐⭐ 4.9</span>
+                    </div>
                 </div>
             </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x250/4ecdc4/fff?text=Hi-Chew" alt="Hi-Chew">
+                <div class="product-info">
+                    <h3>Hi-Chew Манго</h3>
+                    <p class="price">135 грн</p>
+                    <p>Японські жувальні цукерки</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐ 4.8</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x250/f39c12/fff?text=SamYang" alt="SamYang">
+                <div class="product-info">
+                    <h3>SamYang Карі 🔥</h3>
+                    <p class="price">125 грн</p>
+                    <p>Корейська локшина карі гостра</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐⭐ 4.7</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x250/9b59b6/fff?text=UHA" alt="UHA Mikakuto">
+                <div class="product-info">
+                    <h3>UHA Гаммі 🍬</h3>
+                    <p class="price">119 грн</p>
+                    <p>Японське фруктове желе</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐⭐ 4.9</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x250/e74c3c/fff?text=Calpico" alt="Calpico">
+                <div class="product-info">
+                    <h3>Calpis Йогурт 🥛</h3>
+                    <p class="price">165 грн</p>
+                    <p>Японський йогуртовий напій</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐ 4.6</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x250/2ecc71/fff?text=Choco+Pie" alt="Choco Pie">
+                <div class="product-info">
+                    <h3>Choco Pie Корея</h3>
+                    <p class="price">79 грн</p>
+                    <p>Маршмелоу з шоколадом 12шт</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐⭐ 5.0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x250/3498db/fff?text=Tomy" alt="Tomy Fruit Gummy">
+                <div class="product-info">
+                    <h3>Tomy Фрут Гаммі</h3>
+                    <p class="price">139 грн</p>
+                    <p>Японське фруктове желе мікс</p>
+                    <div class="product-actions">
+                        <button class="buy-btn">Купити</button>
+                        <span class="rating">⭐⭐⭐⭐⭐ 4.8</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pagination">
+            <button class="page-btn">← Попередня</button>
+            <span class="page-info">Сторінка 1 з 5</span>
+            <button class="page-btn">Наступна →</button>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Смаколенд. Всі права захищено.</p>
+        <div class="footer-content">
+            <p>&copy; 2025 Смаколенд. Всі права захищено.</p>
+            <p>Працюємо: Пн-Нд 10:00-21:00</p>
+        </div>
     </footer>
 </body>
 </html>
