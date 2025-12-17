@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Смаколенд - Каталог</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Inline стилі для однакового розміру зображень */
+        header img,
+        .product-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 15px 15px 0 0;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img src="https://via.placeholder.com/1200x300/FF628A/FFFFFF?text=Смаколенд" alt="Логотип Смаколенд">
-    </header>
     
     <nav class="navbar">
         <a class="nav-link" href="index.html">Головна</a>
@@ -156,7 +163,7 @@
             </div>
 
             <div class="product-card">
-                <img src="Calpis Йогурт" alt="Calpico">
+                <img src="https://content1.rozetka.com.ua/goods/images/big/378945678.jpg" alt="Calpico">
                 <div class="product-info">
                     <h3>Calpis Йогурт 🥛</h3>
                     <p class="price">165 грн</p>
